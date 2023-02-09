@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>Spring-pet-clinic</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>Spring Pet Clinic</name>
     <description>Spring Pet Clinic</description>
     <properties>
