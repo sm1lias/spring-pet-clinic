@@ -26,6 +26,13 @@
 
     </dependencies>
 
+    <scm>
+        <developerConnection>
+            scm:git:git@github.com:sm1lias/spring-pet-clinic.git
+        </developerConnection>
+    </scm>
+
+
     <build>
         <plugins>
             <plugin>
@@ -38,6 +45,13 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <configuration>
+                    <goals>install</goals>
                 </configuration>
             </plugin>
         </plugins>
