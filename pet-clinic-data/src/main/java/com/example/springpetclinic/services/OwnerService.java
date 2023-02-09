@@ -8,7 +8,7 @@ public interface OwnerService {
 
     Owner findByLastName();
 
-    Owner findById(long id);
+    Owner findById(Long id);
 
     Owner save(Owner owner);
 
